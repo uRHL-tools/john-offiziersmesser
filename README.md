@@ -31,7 +31,7 @@ or
     ├── completed
     └── uncompleted
 ```
-- `logs/` --> offiziersmesser logs
+- `logs/` --> offiziersmesser attack log
 - `old-attacks/` --> When you crack a new set of passwords, the previous results are stored here, organized by date
 - `resources/` --> some [extra resources](#resources)
 - `results/` --> Unshadowed password files

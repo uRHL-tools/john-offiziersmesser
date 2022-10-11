@@ -152,8 +152,8 @@ fi
 
 # Verify that John the Ripper is installed
 checkJohnInstall
-mkdir -p $root_dir/results 2> /dev/null
-mkdir -p $root_dir/logs 2> /dev/null
+# Initialize directories
+mkdir -p $root_dir/results $root_dir/logs $root_dir/old-attacks $root_dir/sessions/uncompleted $root_dir/sessions/completed 2> /dev/null
 
 echo -e "$banner\n"
 
